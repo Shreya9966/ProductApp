@@ -104,3 +104,4 @@ C:\Users\shrey\Documents\Assignment Sem 4 CP\Software QA\ProductApp\ECommerce.Te
 C:\Users\shrey\Documents\Assignment Sem 4 CP\Software QA\ProductApp\ECommerce.Tests\obj\Debug\net8.0\ECommerce.Tests.pdb
 C:\Users\shrey\Documents\Assignment Sem 4 CP\Software QA\ProductApp\ECommerce.Tests\obj\Debug\net8.0\ECommerce.Tests.genruntimeconfig.cache
 C:\Users\shrey\Documents\Assignment Sem 4 CP\Software QA\ProductApp\ECommerce.Tests\obj\Debug\net8.0\ref\ECommerce.Tests.dll
+C:\Users\shrey\Documents\Assignment Sem 4 CP\Software QA\ProductApp\ECommerce.Tests\obj\Debug\net8.0\ECommerce.Tests.sourcelink.json

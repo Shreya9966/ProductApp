@@ -43,5 +43,19 @@ namespace ECommerce.Tests
             var product = new Product(100, "Laptop", 1500m, 10);
             Assert.Throws<InvalidOperationException>(() => product.DecreaseStock(20));
         }
+
+        [Test]
+        public void ProductConstructor_InvalidProdID_ShouldThrowException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => new Product(4, "Laptop", 1500m, 100));
+        }
+
+        [Test]
+        public void IncreaseStock_NegativeAmount_ShouldThrowException()
+        {
+            var product = new Product(100, "Laptop", 1500m, 100);
+            Assert.Throws<ArgumentException>(() => product.IncreaseStock(-10));
+        }
+
     }
 }
